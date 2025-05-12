@@ -29,6 +29,7 @@ public class PersonDetailFragment extends AppCompatActivity {
     private Button captureButton;
     private ImageView capturedImage;
     private static final int CAMERA_PERMISSION_REQUEST = 200;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -94,6 +95,7 @@ public class PersonDetailFragment extends AppCompatActivity {
             }
         }
     }
+
 
 
 }
