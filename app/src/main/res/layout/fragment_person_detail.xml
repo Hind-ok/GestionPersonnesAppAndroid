@@ -29,4 +29,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Envoyer SMS"/>
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capturer une image" />
+
+    <ImageView
+        android:id="@+id/capturedImage"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />
+
 </LinearLayout>
